@@ -1,0 +1,47 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<div class="container" id="cardContainer">
+        <div class="row">
+          <div class="col-sm-4">
+            
+          </div>
+          <div class="col-sm-4">
+                <p>So who is this guy?</p>
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="assets/images/PicOfSelf_360px.png" alt="Picture of Benjamin Heath" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Benjamin Heath</h4>
+                    <p class="card-text">Certified IT Technician & Developer</p>
+                    <a href="https://www.linkedin.com/in/benjamin-heath-738610132/" class="btn btn-primary">See Profile</a>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-4">
+            
+          </div>
+        </div>
+      </div> 
+
+
+      <div class="nav navbar-fixed-bottom">
+        <div class="container">
+           <div class="row">
+             <div class="col-sm-4">
+               <ul>
+                 <li><a [routerLink]="['/home']">Home</a></li>
+               </ul>
+             </div>
+             <div class="col-sm-4">
+               <ul>
+                 <li><a [routerLink]="['/about']">About</a></li>
+               </ul>
+             </div>
+             <div class="col-sm-4">
+               <ul>
+                 <li><a [routerLink]="['/contact']">Contact Us</a></li>
+               </ul>
+             </div>
+           </div>
+         </div>
+       </div> 
+<router-outlet></router-outlet>

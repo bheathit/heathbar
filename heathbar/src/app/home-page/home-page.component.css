@@ -1,0 +1,42 @@
+.TestyDiv {
+    /* max-width: 80%; */
+    /* min-width: 150px; */
+    min-height: 200px;
+    background-color: rgb(100, 194, 99);
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    
+    margin: auto;
+    max-width: 250px;
+    max-height: 250px;
+    min-width: 150px;
+    min-height: 200px;
+    
+}
+
+.HomePageCaro {
+    border-style: inset;
+    border-color: lightgray;
+}
+.sectionOne {
+    margin: auto;
+    background-color: rgb(116, 150, 116);
+    border-style: solid;
+    border-color: rgba(133, 146, 133, 0.795);
+
+}
+.sectionOne a {
+    color: rgb(181, 211, 185);
+}
+
+.headerIcon {
+    max-width: 300px;
+	max-height: 270px;
+	border: solid;
+	border-color: #1e441f;
+	padding: auto;
+	margin: auto;
+    border-radius: 50%;
+  
+}
